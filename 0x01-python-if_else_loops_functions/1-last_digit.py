@@ -6,7 +6,7 @@ last_digit = numberAbs % 10
 sign = ''
 if number < 0 and last_digit > 0:
     sign = '-'
-elif number < 0 and last_digit == 0 :
+elif number < 0 and last_digit == 0:
     sign = ''
     print(f"Last digit of {number} is {sign}{last_digit} and is", end=" ")
 
