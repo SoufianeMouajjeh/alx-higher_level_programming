@@ -7,3 +7,4 @@ def safe_print_integer_err(value):
         import sys
         print("Exception: {}".format(exception), file=sys.stderr)
         return False
+    
