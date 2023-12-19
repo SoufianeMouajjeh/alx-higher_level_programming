@@ -17,3 +17,4 @@ class Square:
         """Calculation of square's area"""
         area = self.__size ** 2
         return area
+    

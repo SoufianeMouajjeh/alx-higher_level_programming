@@ -40,3 +40,4 @@ class Square:
         else:
             for i in range(0, self.__size):
                 print(hashTimes)
+                

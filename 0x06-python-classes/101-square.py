@@ -79,3 +79,4 @@ class Square:
             for i in range(0, self.__size):
                 result.append(" " * self.__position[0] + hash_times)
             return '\n'.join(result)
+        

@@ -23,3 +23,4 @@ class MagicClass:
         """Calculation of MagicClass's circumference"""
         circumference = 2 * math.pi * self.__radius
         return circumference
+    
