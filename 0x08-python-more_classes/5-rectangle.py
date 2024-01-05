@@ -72,3 +72,4 @@ class Rectangle:
     def __del__(self):
         """Method that prints message when instance is deleted"""
         print("Bye rectangle...")
+        
