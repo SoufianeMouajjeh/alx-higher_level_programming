@@ -1,10 +1,4 @@
 #!/usr/bin/python3
-Square = __import__('11-square').Square
-
-s = Square(13)
-
-print(s)
-print(s.area())#!/usr/bin/python3
 """
 Module for Square class
 that inherits from Rectangle
