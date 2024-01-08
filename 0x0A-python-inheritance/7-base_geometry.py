@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Module that """
+"""
+Module contains class BaseGeometry
+and methods area and integer_validator 
+"""
 class BaseGeometry:
     """
     class BaseGeometry
@@ -15,7 +18,7 @@ class BaseGeometry:
         validate value
         """
         if type(value) is not int:
-            raise TypeError("<name> must be an integer")
-        elif value <= 0:
+            raise TypeError("{} must be an integer".format(name))
+        if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
         
