@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Module that import an ractagle"""
 
-BaseGeometry = __import__('9-base_geometry').BaseGeometry
+Rectangle = __import__('9-base_geometry').Rectangle
 
-class Square:
+class Square(Rectangle):
 
     def __init__(self, size):
         """
