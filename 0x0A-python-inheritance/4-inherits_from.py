@@ -6,9 +6,6 @@ def inherits_from(obj, a_class):
     that inherited from the specified class
     then return True
     """
-    if issubclass(type(obj), a_class):
-        return True
-    for base in type(obj).__bases__:
-        if inherits_from(base, a_class):
-            return True
-    return False
+    isSub = issubclass(type(obj), a_class)
+
+    return isSub and type(obj) != a_class
