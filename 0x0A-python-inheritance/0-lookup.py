@@ -4,7 +4,6 @@ Module that contains a function that
 returns the list of available
 """
 
-
 def lookup(obj):
     """
     returns the list of available
